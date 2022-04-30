@@ -10,8 +10,7 @@
 各种函数图像，直角坐标，极坐标，直角坐标观点画极坐标下方程，参数方程
 常用基本不等式
 
-数列极限数列极限定义给定任意$\varepsilon&amp;gt;0 $
-">
+数列极限数列极限定义​        设{$x_n$}为一数列，若对于任给的$\varep">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -477,7 +476,49 @@
 <li>各种函数图像，直角坐标，极坐标，直角坐标观点画极坐标下方程，参数方程</li>
 <li>常用基本不等式</li>
 </ul>
-<h1 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h1><h2 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h2><p>给定任意$\varepsilon&gt;0 $</p>
+<h1 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h1><h2 id="数列极限定义"><a href="#数列极限定义" class="headerlink" title="数列极限定义"></a>数列极限定义</h2><p>​        设{$x_n$}为一数列，若对于任给的$\varepsilon &gt;0$（无论它如何小）,总存在正整数$N$,使得当$n&gt;N$时，$|x_n-a|&lt;\varepsilon$恒成立，则称数a为数列{$x_n$}的极限，记作<br>$$<br>\lim_{n \to \infty} x_n = a或x_n \to  a(n \to \infty )<br>$$</p>
+<p>$$<br>\lim_{n \to \infty} x_n = a \Leftrightarrow \forall \varepsilon &gt;0,\exists N\subset \textbf{N}_+，当n&gt;N时,恒有|x_n-a|&lt;\varepsilon<br>$$</p>
+<h2 id="收敛数列性质"><a href="#收敛数列性质" class="headerlink" title="收敛数列性质"></a>收敛数列性质</h2><ul>
+<li><p>数列极限存在必唯一</p>
+</li>
+<li><p>数列极限存在，数列必有界</p>
+</li>
+<li><p>保号性</p>
+</li>
+<li><p>夹逼准则<br>$$<br>若y_n\le x_n\le z_n,且\lim_{n \to \infty } y_n =a,\lim_{n \to \infty } z_n =a，则\lim_{n \to \infty } x_n =a<br>$$</p>
+</li>
+<li><p>单调有界数列必收敛</p>
+</li>
+</ul>
+<h1 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h1><h2 id="函数极限定义"><a href="#函数极限定义" class="headerlink" title="函数极限定义"></a>函数极限定义</h2><p>​        类似数列极限,设函数在${x_0}$的某一去心领域有定义，若对于任给的$\varepsilon &gt;0$（无论它如何小）,总存在正数$\delta$,使得当$0&lt;|x-x_0|&lt;\delta$时，对应的函数值$f(x)$都满足不等式$|f(x)-A|&lt;\varepsilon$恒成立，则称数A为函数$f(x)当x\to x_0$的极限，<br>$$<br>\lim_{x\to x_o} f(x)=a \Leftrightarrow  \forall \varepsilon &gt;0,\exists \delta &gt;0 ，当0&lt;|x-x_0|&lt;\delta 时,恒有|f(x)-A|&lt;\varepsilon<br>$$</p>
+<h2 id="函数极限性质"><a href="#函数极限性质" class="headerlink" title="函数极限性质"></a>函数极限性质</h2><ul>
+<li>唯一性，极限存在必唯一</li>
+<li>局部有界性</li>
+<li>局部保号性</li>
+<li>夹逼准则</li>
+</ul>
+<h2 id="函数极限计算方法"><a href="#函数极限计算方法" class="headerlink" title="函数极限计算方法"></a>函数极限计算方法</h2><h3 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h3><h3 id="泰勒公式"><a href="#泰勒公式" class="headerlink" title="泰勒公式"></a>泰勒公式</h3><p>$$<br>\sin x = x - \frac{x^3}{3!} + o(x^3)\<br>\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} + o(x^4)\<br>\tan x = x + \frac{x^3}{3} + o(x^3)\<br>\arcsin x = x + \frac{x^3}{3!} + o(x^3)\<br>\arctan x = x - \frac{x^3}{3} + o(x^3)\<br>\ln{(1+x)} = x - \frac{x^2}{2} + \frac{x^3}{3} +o(x^3)\<br>e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} +o(x^3)\<br>(1+x)^a = 1 + ax + \frac{a(a-1)}{2!}x^2 + o(x^2)<br>$$</p>
+<h3 id="七种未定式的计算"><a href="#七种未定式的计算" class="headerlink" title="七种未定式的计算"></a>七种未定式的计算</h3><h4 id="frac-0-0-frac-infty-infty-0-cdot-infty"><a href="#frac-0-0-frac-infty-infty-0-cdot-infty" class="headerlink" title="$\frac{0}{0},\frac{\infty}{\infty},0\cdot \infty$"></a>$\frac{0}{0},\frac{\infty}{\infty},0\cdot \infty$</h4><p>​    洛必达法则，有理化，泰勒公式，夹逼定理  </p>
+<h4 id="infty-infty"><a href="#infty-infty" class="headerlink" title="$\infty-\infty$"></a>$\infty-\infty$</h4><p>​    制造分母</p>
+<h4 id="infty-0-0-0-1-infty"><a href="#infty-0-0-0-1-infty" class="headerlink" title="$\infty ^ 0,0^0, 1^\infty$"></a>$\infty ^ 0,0^0, 1^\infty$</h4><p>​        一般用$e$来抬<br>$$<br>\lim u^v = e^ {\lim v\ln u}<br>$$<br>​        特别的，若为$1^\infty$<br>$$<br>\lim u^v = e^ {\lim v(u-1)}<br>$$</p>
+<h2 id="间断点"><a href="#间断点" class="headerlink" title="间断点"></a>间断点</h2><h1 id="一元函数微分学"><a href="#一元函数微分学" class="headerlink" title="一元函数微分学"></a>一元函数微分学</h1><h2 id="导数与微分的概念"><a href="#导数与微分的概念" class="headerlink" title="导数与微分的概念"></a>导数与微分的概念</h2><h2 id="可微的判别"><a href="#可微的判别" class="headerlink" title="可微的判别"></a>可微的判别</h2><p>​        可导必可微</p>
+<h2 id="导数的计算"><a href="#导数的计算" class="headerlink" title="导数的计算"></a>导数的计算</h2><h3 id="微分形式不变性"><a href="#微分形式不变性" class="headerlink" title="微分形式不变性"></a>微分形式不变性</h3><h3 id="隐函数求导"><a href="#隐函数求导" class="headerlink" title="隐函数求导"></a>隐函数求导</h3><h3 id="对数求导法"><a href="#对数求导法" class="headerlink" title="对数求导法"></a>对数求导法</h3><h3 id="幂指函数求导法"><a href="#幂指函数求导法" class="headerlink" title="幂指函数求导法"></a>幂指函数求导法</h3><h1 id="一元函数微分学几何应用"><a href="#一元函数微分学几何应用" class="headerlink" title="一元函数微分学几何应用"></a>一元函数微分学几何应用</h1><h2 id="单调性与最值的判别"><a href="#单调性与最值的判别" class="headerlink" title="单调性与最值的判别"></a>单调性与最值的判别</h2><h2 id="凹凸性与拐点的判别"><a href="#凹凸性与拐点的判别" class="headerlink" title="凹凸性与拐点的判别"></a>凹凸性与拐点的判别</h2><h2 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h2><p>​        斜渐近线$y=ax+b$,极限不存在就没有<br>$$<br>\lim_{x \to +\infty } \frac{f(x)}{x} = \lim_{x \to -\infty } \frac{f(x)}{x} =a ,\lim_{x \to +\infty }[f(x)-ax]=\lim_{x \to -\infty }[f(x)-ax]=b<br>$$</p>
+<h1 id="中值定理"><a href="#中值定理" class="headerlink" title="中值定理"></a>中值定理</h1><h2 id="涉及函数的中值定理"><a href="#涉及函数的中值定理" class="headerlink" title="涉及函数的中值定理"></a>涉及函数的中值定理</h2><p>设$f(x)在[a,b]$上连续</p>
+<h3 id="有界与最值定理"><a href="#有界与最值定理" class="headerlink" title="有界与最值定理"></a>有界与最值定理</h3><p>​        $m\le f(x) \le M,其中m,M分别为f(x)在[a,b]上的最小值与最大值$</p>
+<h3 id="界值定理"><a href="#界值定理" class="headerlink" title="界值定理"></a>界值定理</h3><p>​        $当m\le \mu  \le M时,存在\xi \in [a,b],使得f(\xi) = \mu $</p>
+<h3 id="平均值定理"><a href="#平均值定理" class="headerlink" title="平均值定理"></a>平均值定理</h3><p>​        $当a&lt;x_1&lt;x_2&lt;\cdot \cdot \cdot &lt;x_n&lt;b时，在[x_1,x_n]内至少存在一点\xi ,使得$<br>$$<br>f(\xi)=\frac{f(x_1)+f(x_2)+\cdot \cdot \cdot+f(x_n)}{n}<br>$$</p>
+<h3 id="零点定理"><a href="#零点定理" class="headerlink" title="零点定理"></a>零点定理</h3><p>​        $当f(a) \cdot f(b)&lt;0时,存在\xi \in [a,b],f(\xi)=0$</p>
+<h2 id="涉及导数的中值定理"><a href="#涉及导数的中值定理" class="headerlink" title="涉及导数的中值定理"></a>涉及导数的中值定理</h2><h3 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h3><p>$$<br>设f(x)满足在点x_0处\begin{cases}<br>1.可导,\<br>2.取极值,<br>\end{cases}<br>则f’(x)=0<br>$$</p>
+<h3 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h3><p>$$<br>设f(x)满足\begin{cases}<br>1.在[a,b]上连续，\<br>2.在(a,b)可导,\<br>3.f(a)=f(b),<br>\end{cases}<br>则存在\xi \in (a,b),使得f’(\xi)=0<br>$$</p>
+<h3 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h3><p>$$<br>设f(x)满足\begin{cases}<br>1.在[a,b]上连续，\<br>2.在(a,b)可导,\<br>\end{cases}<br>则存在\xi \in (a,b),使得f(a)-f(b)=f’(\xi)(b-a)<br>$$</p>
+<h3 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h3><p>$$<br>设f(x)满足\begin{cases}<br>1.在[a,b]上连续，\<br>2.在(a,b)可导,\<br>3.\textsf{g}’(x)\ne 0,<br>\end{cases}<br>则存在\xi \in (a,b),使得\frac{ f(a)-f(b)}{\textsf{g}(b)-\textsf{g}(a)}=\frac{f’(\xi)}{\textsf{g}’(\xi )}<br>$$</p>
+<h2 id="其它中值定理"><a href="#其它中值定理" class="headerlink" title="其它中值定理"></a>其它中值定理</h2><h3 id="积分中值定理"><a href="#积分中值定理" class="headerlink" title="积分中值定理"></a>积分中值定理</h3><p>​        $设f(x)在[a,b]上连续，存在\xi \in (a,b)$<br>$$<br>\int_{a}^{b} f(x)\mathrm{d}x = f(\xi)(b-a)<br>$$</p>
+<h1 id="零点问题与微分不等式"><a href="#零点问题与微分不等式" class="headerlink" title="零点问题与微分不等式"></a>零点问题与微分不等式</h1><h2 id="零点问题"><a href="#零点问题" class="headerlink" title="零点问题"></a>零点问题</h2><p>​        零点定理，单调性，罗尔原话</p>
+<h2 id="微分不等式"><a href="#微分不等式" class="headerlink" title="微分不等式"></a>微分不等式</h2><ul>
+<li>用函数形态(单调性，凹凸性，最值等证明不等式)</li>
+<li>常数变量化证明不等式</li>
+<li>中值定理证明不等式</li>
+</ul>
 
                 
             </div>
